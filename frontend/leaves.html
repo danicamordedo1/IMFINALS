@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Leave Management</title>
+
+  <link
+    rel="stylesheet"
+    href="./style.css"
+  >
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="card">
+
+    <h2>Leave Request</h2>
+
+    <input type="text" id="employeeId" placeholder="Employee ID">
+
+    <select id="leaveType">
+      <option>Sick Leave</option>
+      <option>Vacation Leave</option>
+      <option>Emergency Leave</option>
+    </select>
+
+    <input type="date" id="startDate">
+
+    <input type="date" id="endDate">
+
+    <button onclick="submitLeave()">
+      Submit Leave
+    </button>
+
+  </div>
+
+</div>
+
+<script src="./js/app.js"></script>
+
+</body>
+</html>

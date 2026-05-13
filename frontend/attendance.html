@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Attendance</title>
+
+  <link
+    rel="stylesheet"
+    href="./style.css"
+  >
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="card">
+
+    <h2>Attendance</h2>
+
+    <input type="text" id="employeeId" placeholder="Employee ID">
+
+    <input type="date" id="date">
+
+    <input type="time" id="timeIn">
+
+    <input type="time" id="timeOut">
+
+    <select id="status">
+      <option>Present</option>
+      <option>Absent</option>
+      <option>Late</option>
+    </select>
+
+    <button onclick="saveAttendance()">
+      Save Attendance
+    </button>
+
+  </div>
+
+</div>
+
+<script src="./js/app.js"></script>
+
+</body>
+</html>
